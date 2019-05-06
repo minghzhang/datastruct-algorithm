@@ -6,7 +6,7 @@
 
 # Log file
 *.log
-
+.gradle
 # Package Files #
 *.jar
 *.war

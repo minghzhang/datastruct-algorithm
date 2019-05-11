@@ -1,7 +1,7 @@
 package com.lewis.learn.datastruct.linear.linked;
 
 /**
- * @author fanhuai.zmh@alibaba-inc.com
+ * @author minghzhang
  * @date 2019/05/11
  */
 public class MyDoublyLinkedList {

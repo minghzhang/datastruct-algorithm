@@ -3,7 +3,7 @@ package com.lewis.learn.algorithm.leetcode.array;
 import java.util.Arrays;
 
 /**
- * @author fanhuai.zmh@alibaba-inc.com
+ * @author minghzhang
  * @date 2019/05/10
  */
 public class ThreeSumCloset {

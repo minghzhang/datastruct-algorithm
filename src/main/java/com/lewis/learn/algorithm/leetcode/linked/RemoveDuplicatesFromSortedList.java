@@ -1,5 +1,8 @@
 package com.lewis.learn.algorithm.leetcode.linked;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -32,7 +35,9 @@ public class RemoveDuplicatesFromSortedList {
         RemoveDuplicatesFromSortedList removeDuplicatesFromSortedList = new RemoveDuplicatesFromSortedList();
         ListNode listNode = removeDuplicatesFromSortedList.deleteDuplicates(l1);
         System.out.println(listNode);
-
+        List<Integer> list= new ArrayList<>();
+        Integer[] integers = list.toArray(new Integer[list.size()]);
+        Arrays.sort(integers);
     }
 
     public ListNode deleteDuplicatesRecursion(ListNode head) {

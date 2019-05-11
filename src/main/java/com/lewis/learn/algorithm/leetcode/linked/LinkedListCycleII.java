@@ -50,10 +50,6 @@ package com.lewis.learn.algorithm.leetcode.linked;
  * 同时，fast从头开始走，步长为1，经过n步，也会达到p+c这点。
  * 显然，在这个过程中fast和slow只有前p步骤走的路径不同。所以当p1和p2再次重合的时候，必然是在链表的环路入口点上。
  * <p>
- * 作者：GabrielPanda
- * 链接：https://www.jianshu.com/p/19d73fb32f2b
- * 来源：简书
- * 简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
  */
 public class LinkedListCycleII {
 

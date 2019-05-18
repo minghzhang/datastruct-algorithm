@@ -179,6 +179,45 @@ public class MergeTwoSortedList {
         return header.next;
     }
 
+    public ListNode mergeTwoLists1(ListNode l1, ListNode l2) {
+        if(l1 == null){
+            return l2;
+        }
+        if(l2 == null){
+            return l1;
+        }
+        ListNode dummyHead =new ListNode(-1);
+        ListNode pointer = dummyHead;
+        ListNode left = l1;
+        ListNode right = l2;
+        while(left != null && right != null){
+            if(left.val <= right.val){
+                pointer.next = left;
+                left = left.next;
+
+            }else{
+                pointer.next =right;
+                right = right.next;
+            }
+            pointer = pointer.next;
+        }
+
+        while(left != null){
+            pointer.next = left;
+            left= left.next;
+            pointer= pointer.next;
+        }
+
+        while(right != null){
+            pointer.next = right;
+            right = right.next;
+            pointer = pointer.next;
+        }
+        return dummyHead.next;
+
+
+    }
+
 
     public static class ListNode {
         int val;

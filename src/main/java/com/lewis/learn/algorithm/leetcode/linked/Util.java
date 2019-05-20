@@ -1,7 +1,7 @@
 package com.lewis.learn.algorithm.leetcode.linked;
 
 /**
- * @author fanhuai.zmh@alibaba-inc.com
+ * @author minghzhang
  * @date 2019/05/18
  */
 public class Util {
